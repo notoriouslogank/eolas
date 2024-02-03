@@ -1,0 +1,6 @@
+config.ini
+eolas.log
+eolas.spec
+build/
+dist/
+SYSINFO.txt
