@@ -110,8 +110,8 @@ def write_outfile(line):
     timestamp = datetime.now()
     config = configparser.ConfigParser()
     config.read(configfile)
-    outfile = config["eolas"]["outfile"]
-    write_mode = config["eolas"]["write_mode"]
+    outfile = config["PATHS"]["Logfile"]
+    write_mode = config["PATHS"]["write_mode"]
     logging.debug(
         f"{timestamp} - Writing outfile: {outfile} in write_mode: {write_mode}"
     )
